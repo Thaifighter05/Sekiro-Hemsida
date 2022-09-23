@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(./sekiro_stealth.0.jpg);
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    background-attachment: fixed;
+
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+}
+
+main {
+    color: white;
+    width: 80%;
+    padding: 1.5rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: rgba(7, 3, 3, 0.553);
+}
+
+
+main a {
+    text-decoration: none;
+    color: white;
+}
+
+main p {
+    font-size: 14px;
+    line-height: 2;
+}
