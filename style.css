@@ -6,7 +6,6 @@ body {
     background-image: url(./sekiro_stealth.0.jpg);
     background-size: cover;
     position: relative;
-    background-color: black;
     background-attachment: fixed;
 
 }
@@ -16,6 +15,8 @@ header {
     grid-auto-flow: column;
     place-items: center;
 }
+
+
 
 main {
     color: white;
@@ -36,3 +37,42 @@ main p {
     font-size: 14px;
     line-height: 2;
 }
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.fifty-fifty {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px 180px;
+}
+
+.second-right {
+    text-align: right;
+}
+.second-left {
+    text-align: left;
+}
+
+.Second-fifty-fifty {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px 180px;
+}
+
+.rightHeader{
+ display: grid;
+ grid-template-columns: 50% 50%;
+ grid-template-rows: 25% 25% 25% 25%;
+ grid-column: 4/6;    
+}
+
